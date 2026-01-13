@@ -1,0 +1,13 @@
+étape 1
+1 Les fichiers __pycache__ et *.pyc sont des fichiers générés automatiquement par Python
+Les dossiers .venv/ ou venv/ contiennent l'environnement virtuel Python
+
+2 Ces fichiers sont générés automatiquement et ne contiennent pas de code source que l'on souhaite versionner.
+
+etape 2
+Oui, les fichiers restent présents. Git continue de suivre les fichiers qui ont déjà été commit. Le fichier .gitignore empêche seulement le suivi de nouveaux fichiers, il n'a pas d'effet sur ceux déjà enregistrés dans github.
+
+étape 4
+1 il doit etre créé au tout début du projet
+2 Elle supprime le fichier du suivi de Git de l'index mais le laisse physiquement présent sur le disque dur
+3 Le fichier serait supprimé du disque dur et donc perdu localement en plus d'être retiré de Git.
